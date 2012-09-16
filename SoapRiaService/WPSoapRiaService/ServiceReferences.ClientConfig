@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_EmployeeDomainServiceSoap" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="TransportCredentialOnly" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:37390/Services/SoapRiaService-EmployeeDomainService.svc/Soap"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_EmployeeDomainServiceSoap"
+                contract="EmployeesService.EmployeeDomainServiceSoap" name="BasicHttpBinding_EmployeeDomainServiceSoap" />
+        </client>
+    </system.serviceModel>
+</configuration>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapRiaService", "SoapRiaService\SoapRiaService.csproj", "{AAC6310E-E3FF-4613-AF5B-4CC6C4EC2110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP7SoapRiaService", "WPSoapRiaService\WP7SoapRiaService.csproj", "{6F482B8E-F8B3-4106-8C62-33A306882BE1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs14
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SoapRiaService\\SoapRiaService.csproj
+		SccProjectName1 = SoapRiaService
+		SccLocalPath1 = SoapRiaService
+		SccProjectUniqueName2 = WPSoapRiaService\\WP7SoapRiaService.csproj
+		SccProjectName2 = WPSoapRiaService
+		SccLocalPath2 = WPSoapRiaService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC6310E-E3FF-4613-AF5B-4CC6C4EC2110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC6310E-E3FF-4613-AF5B-4CC6C4EC2110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC6310E-E3FF-4613-AF5B-4CC6C4EC2110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC6310E-E3FF-4613-AF5B-4CC6C4EC2110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F482B8E-F8B3-4106-8C62-33A306882BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F482B8E-F8B3-4106-8C62-33A306882BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F482B8E-F8B3-4106-8C62-33A306882BE1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6F482B8E-F8B3-4106-8C62-33A306882BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F482B8E-F8B3-4106-8C62-33A306882BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F482B8E-F8B3-4106-8C62-33A306882BE1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
