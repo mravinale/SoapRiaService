@@ -1,0 +1,1 @@
+More information: http://mravinale.wordpress.com/2010/09/24/using-ria-services-soap-and-windows-phone-7/
